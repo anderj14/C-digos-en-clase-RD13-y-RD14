@@ -20,7 +20,7 @@ from Scripts.analizador_inflacion_pibreal import AnalizadorInflacionPIBReal, Ana
 class InterfazAnalisisPIB:
     def __init__(self, root):
         self.root = root
-        self.root.state('zoomed')
+        self.root.state('normal')
         self.root.title("Dashboard Económico Completo - Análisis del PIB e Inflación - República Dominicana")
         self.root.geometry("1200x700")
         self.root.minsize(1200, 700)
